@@ -1,5 +1,6 @@
 .container {
   padding: 0 20px;
+
   @media ($desktop-only) {
     padding: 0 40px;
   }
@@ -33,6 +34,7 @@
   font-size: 36px;
   line-height: 48px;
   letter-spacing: 0.02em;
+
   @media ($not-mobile) {
     font-size: 56px;
     line-height: 80px;
@@ -43,6 +45,7 @@
   font-family: $primary-font;
   font-size: 24px;
   line-height: 36px;
+
   @media ($not-mobile) {
     font-size: 42px;
     line-height: 64px;
@@ -53,6 +56,7 @@
   font-family: $primary-font;
   font-size: 18px;
   line-height: 32px;
+
   @media ($not-mobile) {
     font-size: 24px;
     line-height: 36px;

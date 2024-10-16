@@ -51,4 +51,3 @@ const config07 = {
   scenarios: styleguideConfig.scenarios.filter(({ label }) => !!label.match(passedSelectors)),
 }
 await fs.writeFile('./test-config/backstop-test-07.config.json', JSON.stringify(config07, null, 2), 'utf8')
-

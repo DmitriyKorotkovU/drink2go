@@ -3,14 +3,17 @@
   flex-wrap: wrap;
   column-gap: 20px;
   max-width: 160px;
+
   @media ($not-mobile) {
     max-width: 280px;
   }
 }
+
 .social__link {
   display: block;
   padding: 10px;
 }
+
 .social__icon {
   display: block;
   width: 20px;
@@ -19,12 +22,15 @@
   background-size: contain;
   background-position: center;
 }
+
 .social__link--vk .social__icon {
   background-image: url("../../icons/stack.svg#vk");
 }
+
 .social__link--pinterest .social__icon {
   background-image: url("../../icons/stack.svg#pinterest");
 }
+
 .social__link--ok .social__icon {
   background-image: url("../../icons/stack.svg#ok");
 }

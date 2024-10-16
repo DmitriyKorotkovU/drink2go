@@ -22,6 +22,9 @@
 <body class="page__body">
   <header class="header">Шапка</header>
   <main>
+    <section class="hero">
+      <h1 class="visually-hidden">Главная страница</h1>
+    </section>
     <section class="advantages">
       <div class="container">
         <h2 class="advantages__title title-4">Преимущества</h2>
@@ -54,7 +57,9 @@
         </ul>
       </div>
     </section>
-    <section class="map"></section>
+    <section class="map">
+      <h2 class="visually-hidden">Местонахождение на карте</h2>
+    </section>
   </main>
   <footer class="footer">
     <div class="container footer__container">
@@ -70,19 +75,19 @@
           <h2 class="visually-hidden">Ссылки на социльные сети</h2>
           <ul class="social__list list-reset">
             <li class="social__item">
-              <a href="#" class="social__link social__link--vk">
+              <a class="social__link social__link--vk" href="#">
                 <span class="visually-hidden">Вконтакте</span>
                 <span class="social__icon"></span>
               </a>
             </li>
             <li class="social__item">
-              <a href="#" class="social__link social__link--pinterest">
+              <a class="social__link social__link--pinterest" href="#">
                 <span class="visually-hidden">Пинтерест</span>
                 <span class="social__icon"></span>
               </a>
             </li>
             <li class="social__item">
-              <a href="#" class="social__link social__link--ok">
+              <a class="social__link social__link--ok" href="#">
                 <span class="visually-hidden">Одноклассники</span>
                 <span class="social__icon"></span>
               </a>
@@ -95,16 +100,16 @@
           <h3 class="title-4 footer__column-title">Интернет-магазин</h3>
           <ul class="footer__nav-list list-reset">
             <li class="footer__nav-item">
-              <a href="#" class="footer__nav-link">Каталог</a>
+              <a class="footer__nav-link" href="#">Каталог</a>
             </li>
             <li class="footer__nav-item">
-              <a href="#" class="footer__nav-link">Доставка</a>
+              <a class="footer__nav-link" href="#">Доставка</a>
             </li>
             <li class="footer__nav-item">
-              <a href="#" class="footer__nav-link">Способы оплаты</a>
+              <a class="footer__nav-link" href="#">Способы оплаты</a>
             </li>
             <li class="footer__nav-item">
-              <a href="#" class="footer__nav-link">О нас</a>
+              <a class="footer__nav-link" href="#">О нас</a>
             </li>
           </ul>
         </li>
@@ -112,13 +117,13 @@
           <h3 class="title-4 footer__column-title">Медиа</h3>
           <ul class="footer__nav-list list-reset">
             <li class="footer__nav-item">
-              <a href="#" class="footer__nav-link">Блог</a>
+              <a class="footer__nav-link" href="#">Блог</a>
             </li>
             <li class="footer__nav-item">
-              <a href="#" class="footer__nav-link">Информация для СМИ</a>
+              <a class="footer__nav-link" href="#">Информация для СМИ</a>
             </li>
             <li class="footer__nav-item">
-              <a href="#" class="footer__nav-link">Правовая информация</a>
+              <a class="footer__nav-link" href="#">Правовая информация</a>
             </li>
           </ul>
         </li>
@@ -126,10 +131,10 @@
           <h3 class="title-4 footer__column-title">Контакты</h3>
           <ul class="footer__nav-list list-reset">
             <li class="footer__nav-item">
-              <a href="#" class="footer__nav-link footer__nav-link--address">Санкт-Петербург, набережная реки Карповки, дом 5</a>
+              <a class="footer__nav-link footer__nav-link--address" href="#">Санкт-Петербург, набережная реки Карповки, дом 5</a>
             </li>
             <li class="footer__nav-item">
-              <a href="tel:+79999999999" class="footer__nav-link footer__nav-link--tel">+7 (999) 999-99-99</a>
+              <a class="footer__nav-link footer__nav-link--tel" href="tel:+79999999999">+7 (999) 999-99-99</a>
             </li>
           </ul>
         </li>
@@ -138,9 +143,9 @@
         <h2 class="visually-hidden">Партнёр</h2>
         <p class="copyright__text">
           Разработано в&nbsp;
-          <a href="https://htmlacademy.ru/intensive/adaptive" class="copyright__link">
+          <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
             <span>HTML Academy</span>
-            <svg viewBox="0 0 12 16" width="12px" height="16px" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="m11.22 5.75-5.25-3.25-5.19 3.25v-4.34l5.22-.58 5.22.58v4.34Zm0 .58-2.1 1.3-3.14-1.97v.57l2.68 1.68-.46.29-2.22-1.4v.58l1.75 1.1-.41.29h-.01l-1.33-.82v.58l.87.53-.89.56-5.16-3.23 5.17-3.28 5.24 3.22Zm0 5.44-5.22 3.27-5.22-3.27v-4.74l5.2 3.25v.59l-3.56-2.23v.57l3.58 2.26v.6l-3.57-2.23v.57l3.57 2.26 3.6-2.27v-2.44l1.62-1.01v4.82Zm-5.22-11.77-6 .66v11.58l6 3.76 6-3.76v-11.58l-6-.66Z" fill="#BDBDBD"/></svg>
+            <svg viewBox="0 0 12 16" width="12" height="16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="m11.22 5.75-5.25-3.25-5.19 3.25v-4.34l5.22-.58 5.22.58v4.34Zm0 .58-2.1 1.3-3.14-1.97v.57l2.68 1.68-.46.29-2.22-1.4v.58l1.75 1.1-.41.29h-.01l-1.33-.82v.58l.87.53-.89.56-5.16-3.23 5.17-3.28 5.24 3.22Zm0 5.44-5.22 3.27-5.22-3.27v-4.74l5.2 3.25v.59l-3.56-2.23v.57l3.58 2.26v.6l-3.57-2.23v.57l3.57 2.26 3.6-2.27v-2.44l1.62-1.01v4.82Zm-5.22-11.77-6 .66v11.58l6 3.76 6-3.76v-11.58l-6-.66Z" fill="#BDBDBD"/></svg>
           </a>
         </p>
       </section>

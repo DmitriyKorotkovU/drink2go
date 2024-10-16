@@ -12,15 +12,12 @@ $color-primary-light: #9070ec;
 $color-lavander-latte: #eae6fc;
 $color-primary-dark: #593cac;
 $color-secondry: #f0ebff;
-
 // Шрифты
 $primary-font: "Montserrat", "Arial", sans-serif;
-
 // Размеры вьюпортов
 $breakpoint-desktop: 1440px;
 $breakpoint-tablet: 768px;
 $breakpoint-mobile: 320px;
-
 $mobile-only: "width < #{$breakpoint-tablet}";
 $tablet-only: "#{$breakpoint-tablet} <= width < #{$breakpoint-desktop}";
 $desktop-only: "#{$breakpoint-desktop} <= width";

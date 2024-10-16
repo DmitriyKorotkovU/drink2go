@@ -12,18 +12,21 @@
   background-size: cover;
   background-position: center;
   background-color: $color-espresso;
+
   @media ($breakpoint-mobile < width) {
     background-image:
-    image-set(
-      url("../../images/map-tablet@1x.webp") type("image/webp") 1x,
-      url("../../images/map-tablet@2x.webp") type("image/webp") 2x,
-      url("../../images/map-tablet@1x.png") type("image/png") 1x,
-      url("../../images/map-tablet@2x.png") type("image/png") 2x
-    );
+      image-set(
+        url("../../images/map-tablet@1x.webp") type("image/webp") 1x,
+        url("../../images/map-tablet@2x.webp") type("image/webp") 2x,
+        url("../../images/map-tablet@1x.png") type("image/png") 1x,
+        url("../../images/map-tablet@2x.png") type("image/png") 2x
+      );
   }
+
   @media ($not-mobile) {
     height: 480px;
   }
+
   @media ($breakpoint-tablet < width) {
     background-image:
       image-set(
@@ -33,6 +36,7 @@
         url("../../images/map-desktop@2x.png") type("image/png") 2x
       );
   }
+
   @media ($desktop-only) {
     height: 540px;
   }
