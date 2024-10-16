@@ -1,0 +1,28 @@
+// Цвета
+$color-white: #ffffff;
+$color-white-flat: #f3ebe1;
+$color-grey: #bdbdbd;
+$color-grey-light: #e2e2e2;
+$color-grey-lightest: #f8f8f8;
+$color-espresso: #e5e6e8;
+$color-black: #333333;
+$color-primary: #7859cf;
+$color-primary-opacity: rgba(120, 89, 207, 0.25);
+$color-primary-light: #9070ec;
+$color-lavander-latte: #eae6fc;
+$color-primary-dark: #593cac;
+$color-secondry: #f0ebff;
+
+// Шрифты
+$primary-font: "Montserrat", "Arial", sans-serif;
+
+// Размеры вьюпортов
+$breakpoint-desktop: 1440px;
+$breakpoint-tablet: 768px;
+$breakpoint-mobile: 320px;
+
+$mobile-only: "width < #{$breakpoint-tablet}";
+$tablet-only: "#{$breakpoint-tablet} <= width < #{$breakpoint-desktop}";
+$desktop-only: "#{$breakpoint-desktop} <= width";
+$not-mobile: "#{$breakpoint-tablet} <= width";
+$not-desktop: "width < #{$breakpoint-desktop}";

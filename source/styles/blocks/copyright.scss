@@ -1,0 +1,25 @@
+.copyright {
+  width: 100%;
+  padding: 20px 0 30px;
+  @media ($not-mobile) {
+    padding: 10px 0 40px;
+  }
+}
+.copyright__text {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: $color-grey;
+}
+.copyright__link {
+  display: flex;
+  color: inherit;
+  svg {
+    width: 12px;
+    height: 16px;
+    margin-left: 4px;
+  }
+}

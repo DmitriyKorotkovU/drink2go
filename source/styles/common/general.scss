@@ -1,0 +1,68 @@
+.container {
+  padding: 0 20px;
+  @media ($desktop-only) {
+    padding: 0 40px;
+  }
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.line-break-span {
+  display: block;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.title-1 {
+  font-family: $primary-font;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+  @media ($not-mobile) {
+    font-size: 56px;
+    line-height: 80px;
+  }
+}
+
+.title-2 {
+  font-family: $primary-font;
+  font-size: 24px;
+  line-height: 36px;
+  @media ($not-mobile) {
+    font-size: 42px;
+    line-height: 64px;
+  }
+}
+
+.title-3 {
+  font-family: $primary-font;
+  font-size: 18px;
+  line-height: 32px;
+  @media ($not-mobile) {
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+
+.title-4 {
+  font-family: $primary-font;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: $color-primary;
+}
