@@ -64,9 +64,13 @@
 }
 
 .title-4 {
+  margin: 0;
+  margin-bottom: 4px;
   font-family: $primary-font;
   font-size: 14px;
   line-height: 20px;
-  letter-spacing: 0.02em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
   color: $color-primary;
 }

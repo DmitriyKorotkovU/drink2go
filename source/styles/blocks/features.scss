@@ -1,4 +1,4 @@
-.advantages {
+.features {
   padding: 50px 0 44px;
 
   @media ($not-mobile) {
@@ -10,16 +10,15 @@
   }
 }
 
-.advantages__title {
+.features__subtitle {
   margin: 0;
   margin-bottom: 4px;
   text-transform: uppercase;
   text-align: center;
 }
 
-.advantages__subtitle {
+.features__title {
   margin: 0;
-  margin-bottom: 4px;
   font-weight: 700;
   text-align: center;
 
@@ -32,7 +31,7 @@
   }
 }
 
-.advantages__list {
+.features__list {
   display: grid;
   grid-template-columns: minmax(auto, 280px);
   justify-content: center;
@@ -50,7 +49,7 @@
   }
 }
 
-.advantages__item {
+.features__item {
   padding: 16px 0;
   text-align: center;
 
@@ -64,36 +63,36 @@
   }
 
   &--speed {
-    --advantages-icon: url("../../icons/stack.svg#timer");
+    --features-icon: url("../../icons/stack.svg#timer");
   }
 
   &--comfort {
-    --advantages-icon: url("../../icons/stack.svg#shield");
+    --features-icon: url("../../icons/stack.svg#shield");
   }
 
   &--vigor {
-    --advantages-icon: url("../../icons/stack.svg#lightning");
+    --features-icon: url("../../icons/stack.svg#lightning");
   }
 
   &--ecology {
-    --advantages-icon: url("../../icons/stack.svg#leaf");
+    --features-icon: url("../../icons/stack.svg#leaf");
   }
 }
 
-.advantages__item-wrapper {
-  --advantages-icon-m: 0 auto 10px;
+.features__item-wrapper {
+  --features-icon-m: 0 auto 10px;
 
   @media ($tablet-only) {
     display: grid;
     grid-template-columns: 52px 1fr;
     grid-template-rows: auto 1fr;
     column-gap: 20px;
-    --advantages-icon-row: 1 / 3;
-    --advantages-icon-m: 4px 0 0;
+    --features-icon-row: 1 / 3;
+    --features-icon-m: 4px 0 0;
   }
 
   @media ($desktop-only) {
-    --advantages-icon-m: 0 auto 20px;
+    --features-icon-m: 0 auto 20px;
   }
 
   &::before {
@@ -101,13 +100,13 @@
     display: block;
     width: 52px;
     height: 56px;
-    margin: var(--advantages-icon-m);
-    background-image: var(--advantages-icon);
-    grid-row: var(--advantages-icon-row);
+    margin: var(--features-icon-m);
+    background-image: var(--features-icon);
+    grid-row: var(--features-icon-row);
   }
 }
 
-.advantages__item-title {
+.features__item-title {
   margin: 0;
   margin-bottom: 4px;
 
@@ -116,7 +115,7 @@
   }
 }
 
-.advantages__item-text {
+.features__item-text {
   margin: 0;
   font-size: 14px;
   line-height: 20px;

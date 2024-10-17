@@ -144,6 +144,7 @@
   margin: 0;
   margin-bottom: 12px;
   width: 100%;
+  text-transform: capitalize;
 
   @media ($mobile-only) {
     max-width: 280px;
@@ -166,7 +167,7 @@
   font-size: 12px;
   line-height: 16px;
   font-weight: 500;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
   color: $color-black;
 }
